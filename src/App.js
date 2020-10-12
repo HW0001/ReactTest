@@ -1,7 +1,7 @@
 import React from 'react'; 
 import './App.css';
 import Test from "./Test"
-
+import Reducer from './Reducer'
 
 
 function App() {
@@ -23,6 +23,8 @@ function App() {
      <San  name="我是传给san的内容"/>
      <Test/>
      {/* <Ddiv /> */}
+     <hr/>
+     <Reducer/>
     </div>
   );
 } 
